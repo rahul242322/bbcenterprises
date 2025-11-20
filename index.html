@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC Enterprises - Livpure Authorized Dealer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <div class="logo-img">BBC</div>
+                <span>BBC Enterprises</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Pure Water, Healthy Life</h1>
+            <p>Authorized Livpure Dealer - Premium Water Purification Solutions</p>
+            <a href="#contact" class="cta-button">Get Free Consultation</a>
+        </div>
+    </section>
+
+    <section class="section" id="products">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <p class="section-subtitle">Premium Livpure Water Purifiers</p>
+            <div class="product-carousel">
+                <button class="carousel-btn prev" onclick="slideProducts(-1)">❮</button>
+                <div class="product-slider" id="productSlider">
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x250/1e40af/ffffff?text=Livpure+Bolt+" alt="Livpure Bolt+">
+                        <h3>Livpure Bolt+</h3>
+                        <p class="price">₹13,490</p>
+                        <p>7-stage purification with copper technology</p>
+                        <button class="cta-button">Enquire Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x250/1e40af/ffffff?text=Livpure+Allura" alt="Livpure Allura">
+                        <h3>Livpure Allura</h3>
+                        <p class="price">₹15,990</p>
+                        <p>Advanced RO+UV+UF purification</p>
+                        <button class="cta-button">Enquire Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x250/1e40af/ffffff?text=Livpure+Platino" alt="Livpure Platino">
+                        <h3>Livpure Platino</h3>
+                        <p class="price">₹18,990</p>
+                        <p>Copper + UV + Minerals</p>
+                        <button class="cta-button">Enquire Now</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/300x250/1e40af/ffffff?text=Livpure+Touch" alt="Livpure Touch">
+                        <h3>Livpure Touch 2000</h3>
+                        <p class="price">₹17,100</p>
+                        <p>Smart touch display with RO+UV</p>
+                        <button class="cta-button">Enquire Now</button>
+                    </div>
+                </div>
+                <button class="carousel-btn next" onclick="slideProducts(1)">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">✓</div>
+                    <h3>Authorized Dealer</h3>
+                    <p>Official Livpure authorized dealer</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛠️</div>
+                    <h3>Expert Installation</h3>
+                    <p>Professional installation service</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Free Service</h3>
+                    <p>Complimentary maintenance</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💯</div>
+                    <h3>Warranty</h3>
+                    <p>Comprehensive warranty coverage</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About BBC Enterprises</h2>
+            <p class="about-text">BBC Enterprises is your trusted partner for premium water purification solutions. As an authorized Livpure dealer, we ensure your family's health with every drop.</p>
+        </div>
+    </section>
+
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>📞 Phone: +91 XXXXX XXXXX</p>
+                    <p>📧 Email: info@bbcenterprises.com</p>
+                    <p>📍 Location: Your City, India</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone" required>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BBC Enterprises. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
