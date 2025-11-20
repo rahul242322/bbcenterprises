@@ -523,20 +523,78 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+            .logo {
+                font-size: 1.2rem;
+                gap: 10px;
+            }
+            
+            .logo-img {
+                width: 45px;
+                height: 45px;
+                font-size: 1.2rem;
+            }
+            
             .nav-links {
                 display: none;
             }
             
+            .hero {
+                padding: 120px 0 60px;
+            }
+            
+            .hero .container {
+                flex-direction: column !important;
+                text-align: center !important;
+            }
+            
+            .hero .container > div {
+                max-width: 100% !important;
+                text-align: center !important;
+            }
+            
             .hero h1 {
-                font-size: 2.5rem;
+                font-size: 1.8rem !important;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .section {
+                padding: 40px 0;
             }
             
             .section-title {
-                font-size: 2rem;
+                font-size: 1.8rem;
+            }
+            
+            .section-subtitle {
+                font-size: 1rem;
+                margin-bottom: 2rem;
             }
 
             .product-card {
                 min-width: 280px;
+            }
+            
+            .carousel-btn {
+                padding: 10px 16px;
+                font-size: 0.9rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+            
+            .floating-btn {
+                width: 50px;
+                height: 50px;
+                font-size: 1.2rem;
             }
         }
     </style>
@@ -561,11 +619,11 @@
     </header>
 
     <section id="home" class="hero">
-        <div class="container" style="display: flex; align-items: center; gap: 3rem;">
-            <div style="flex: 1; max-width: 500px;">
+        <div class="container" style="display: flex; align-items: center; gap: 3rem; flex-wrap: wrap;">
+            <div style="flex: 1; max-width: 500px; min-width: 280px;">
                 <img src="images/livpure-products.jpg" alt="Livpure Water Purifiers" style="width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
             </div>
-            <div style="flex: 1; text-align: left;">
+            <div style="flex: 1; text-align: left; min-width: 280px;">
                 <h1>Pure Water, Healthy Life</h1>
                 <p>Authorized Livpure Franchise Partner - Premium Water Purifiers</p>
                 <a href="#contact" class="cta-button">Get Free Quote Today</a>
@@ -700,7 +758,7 @@
 
     <section id="features" class="section features">
         <div class="container">
-            <h2 class="section-title">Why Choose BBC Enterprises?</h2>
+            <h2 class="section-title" style="color: white; -webkit-text-fill-color: white;">Why Choose BBC Enterprises?</h2>
             <div class="features-grid">
                 <div class="feature-item">
                     <div style="font-size: 3rem; margin-bottom: 1rem;">🏆</div>
